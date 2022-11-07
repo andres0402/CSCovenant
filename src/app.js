@@ -11,6 +11,7 @@ app.set('port', 4000);
 app.use(bodyParser.urlencoded({
   extended: true
 }));
+
 app.use(bodyParser.json());
 
 app.set('views', __dirname + '/views');
