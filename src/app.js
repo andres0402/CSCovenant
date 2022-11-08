@@ -14,7 +14,6 @@ app.use(bodyParser.urlencoded({
 
 app.use(bodyParser.json());
 
-
 app.set('views', __dirname + '/views');
 app.engine('.hbs', engine({
   extname: '.hbs',
